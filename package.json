@@ -1,0 +1,23 @@
+{
+  "name": "background_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify index.js > bundle.js && live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edsnow-den/Backgroung-Generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edsnow-den/Backgroung-Generator/issues"
+  },
+  "homepage": "https://github.com/edsnow-den/Backgroung-Generator#readme",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

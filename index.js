@@ -1,3 +1,4 @@
+var _ = require('lodash');
 var color1 = document.querySelector('#color1');
 var color2 = document.querySelector('#color2');
 var body = document.querySelector('body');
@@ -11,6 +12,8 @@ function changeColor() {
     hexColor.textContent = `Hex-Color: ${color1.value}, ${color2.value}`
 }
 
+var arr = [1,2,3]
+console.log(_.without(arr, 3));
 
 color1.addEventListener('input', changeColor)
 
