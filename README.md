@@ -1,0 +1,1 @@
+This is a background generator pick a color and let the magic do the job !
